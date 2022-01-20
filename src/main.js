@@ -1,7 +1,7 @@
 "use strict";
 
-// A word guessing game inspired by Wordle
-// Copyright (C) 2022  Amir Livne Bar-on
+// A word guessing game inspired by Wordle and Meduyeket.
+// Copyright (C) 2022  Yair Ben-Meir
 // 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Affero General Public License as published by
@@ -102,7 +102,7 @@ function create_result() {
             return {exact: '🟩', other: '🟨', wrong: '⬜'}[match];
         }).join('');
     });
-    return `מדויקת ${today} - ${guesses[guesses.length - 1] === word_of_the_day ? guesses.length : 'X'}/6\n\n` + rows.join('\n');
+    return `ממהרת ${today} - ${guesses[guesses.length - 1] === word_of_the_day ? guesses.length : 'X'}/6\n\n` + rows.join('\n');
 }
 
 function set_modal_state() {
