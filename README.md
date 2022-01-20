@@ -5,7 +5,7 @@
 של Josh Wardle,
 ועל
 [מדויקת](https://meduyeket.net/)
-של עמיר ליבנה בר-און
+של עמיר ליבנה בר-און.
 
 
 הקוד ורשימת המילים ברשיון AGPL (רשימת המילים נגזרה מפרויקט Hspell ומהעבודה של eyaler) והגופן Arimo ברשיון Apache (קרדיט לגופן: Steve Matteson).
